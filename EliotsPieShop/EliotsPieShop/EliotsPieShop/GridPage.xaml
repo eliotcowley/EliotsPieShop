@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EliotsPieShop.GridPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Accent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Welcome to Eliot's Pie Shop"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="Green"
+                   FontSize="Default"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"/>
+            <BoxView Color="Accent"
+                     Grid.Row="1"
+                     Grid.Column="0"/>
+            <BoxView Color="AliceBlue"
+                     Grid.Row="1"
+                     Grid.Column="0"/>
+            <BoxView Color="AntiqueWhite"
+                     Grid.Row="1"
+                     Grid.Column="1"/>
+            <BoxView Color="Aqua"
+                     Grid.Row="1"
+                     Grid.Column="2"/>
+            <Label BackgroundColor="Aquamarine"
+                   Grid.Column="0"
+                   Grid.Row="2"
+                   Grid.RowSpan="2"
+                   Grid.ColumnSpan="3"
+                   Text="Cupcake sweet candy licorice. Sesame snaps halvah jelly halvah sweet blah blah blah..."/>
+        </Grid>
+        <!--<AbsoluteLayout BackgroundColor="Accent">
+            <BoxView Color="AliceBlue"
+                     AbsoluteLayout.LayoutBounds="0, 0, 0.1, 1"
+                     AbsoluteLayout.LayoutFlags="All"/>
+        </AbsoluteLayout>-->
+    </ContentPage.Content>
+</ContentPage>
