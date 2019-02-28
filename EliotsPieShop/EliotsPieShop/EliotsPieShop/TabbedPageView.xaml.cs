@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EliotsPieShop
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MarkupExtensionsPage : ContentPage
+	public partial class TabbedPageView : TabbedPage
 	{
-		public MarkupExtensionsPage ()
+		public TabbedPageView ()
 		{
 			InitializeComponent ();
 		}

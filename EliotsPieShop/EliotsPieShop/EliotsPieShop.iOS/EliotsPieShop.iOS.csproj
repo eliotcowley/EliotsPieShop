@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{839AF30D-BB50-40D7-B00E-DCCF9A6A9590}</ProjectGuid>
+    <ProjectGuid>{C95BB4EC-DD06-4022-9264-C3F1E85AF903}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -153,8 +153,32 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\EliotsPieShop\EliotsPieShop.csproj">
-      <Project>{D01FE497-21D8-400B-A674-8C6A3C7FE630}</Project>
+      <Project>{E33958C4-5420-4825-B1ED-36671FBE270E}</Project>
       <Name>EliotsPieShop</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\applepie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\applepiesmall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bethanylogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\patternwide.png" />
   </ItemGroup>
 </Project>

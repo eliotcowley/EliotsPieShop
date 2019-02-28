@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace EliotsPieShop
+namespace EliotsPieShop.Helpers
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class GridPage : ContentPage
+	public partial class PieOverviewView : ContentPage
 	{
-		public GridPage ()
+		public PieOverviewView ()
 		{
 			InitializeComponent ();
 		}

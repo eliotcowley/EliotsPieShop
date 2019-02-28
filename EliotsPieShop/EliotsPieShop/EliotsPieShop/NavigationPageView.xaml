@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EliotsPieShop.NavigationPageView">
+    <StackLayout>
+        <Button Text="Home page"
+                Margin="5"
+                x:Name="HomePageButton"
+                Clicked="HomePageButton_Clicked"/>
+        <Button Text="Pie overview"
+                Margin="5"
+                x:Name="PieOverviewButton"
+                Clicked="PieOverviewButton_Clicked"/>
+        <Button Text="Basket"
+                Margin="5"
+                x:Name="BasketButton"
+                Clicked="BasketButton_Clicked"/>
+        <Button Text="Contact us"
+                Margin="5"
+                x:Name="ContactUsButton"
+                Clicked="ContactUsButton_Clicked"/>
+    </StackLayout>
+</ContentPage>

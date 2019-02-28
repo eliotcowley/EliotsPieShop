@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="c20555ec-f4bf-472c-ab45-cfe1ce1456c5"
-    Publisher="CN=5258ffc8-2f43-4742-8388-a434da7da87d"
+    Name="025e2782-23fe-4a68-b5b8-0b64ecc3daee"
+    Publisher="CN=4c00c964-964a-4e1c-bf8c-103f8f2b31ae"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>EliotsPieShop.UWP</DisplayName>
-    <PublisherDisplayName>5258ffc8-2f43-4742-8388-a434da7da87d</PublisherDisplayName>
+    <PublisherDisplayName>4c00c964-964a-4e1c-bf8c-103f8f2b31ae</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EliotsPieShop
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class NestingPage : ContentPage
+	public partial class ContentPageView : ContentPage
 	{
-		public NestingPage ()
+		public ContentPageView ()
 		{
 			InitializeComponent ();
 		}

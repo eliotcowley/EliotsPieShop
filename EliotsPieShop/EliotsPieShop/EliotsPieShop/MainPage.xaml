@@ -5,19 +5,10 @@
              x:Class="EliotsPieShop.MainPage">
 
     <StackLayout>
-        
-        <Label Text="Welcome to Eliot's Pie Shop!"
-           FontSize="Default"
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand"/>
-
-        <Button Text="Click me and start the magic"
-                HorizontalOptions="Center"
-                Margin="10"
-                VerticalOptions="CenterAndExpand"
-                x:Name="DemoButton"
-                Clicked="DemoButton_Clicked"/>
-        
+           VerticalOptions="CenterAndExpand" />
     </StackLayout>
-    
+
 </ContentPage>
