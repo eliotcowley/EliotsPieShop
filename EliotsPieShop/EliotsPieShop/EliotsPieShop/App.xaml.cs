@@ -10,7 +10,7 @@ namespace EliotsPieShop
         public App()
         {
             InitializeComponent();
-            MainPage = new LoginWithGridLayout();
+            MainPage = new PieDetailView();
         }
 
         protected override void OnStart()

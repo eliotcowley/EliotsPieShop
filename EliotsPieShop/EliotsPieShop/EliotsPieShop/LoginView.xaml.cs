@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EliotsPieShop
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TabbedPageView : TabbedPage
+	public partial class LoginView : ContentPage
 	{
-		public TabbedPageView ()
+		public LoginView ()
 		{
 			InitializeComponent ();
 		}

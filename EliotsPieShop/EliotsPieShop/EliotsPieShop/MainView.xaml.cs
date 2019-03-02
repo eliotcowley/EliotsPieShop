@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EliotsPieShop
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class NestedGridLayoutPage : ContentPage
+	public partial class MainView : MasterDetailPage
 	{
-		public NestedGridLayoutPage ()
+		public MainView ()
 		{
 			InitializeComponent ();
 		}

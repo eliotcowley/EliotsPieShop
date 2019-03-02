@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EliotsPieShop
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginWithGridLayout : ContentPage
+	public partial class HomeView : ContentPage
 	{
-		public LoginWithGridLayout ()
+		public HomeView ()
 		{
 			InitializeComponent ();
 		}
