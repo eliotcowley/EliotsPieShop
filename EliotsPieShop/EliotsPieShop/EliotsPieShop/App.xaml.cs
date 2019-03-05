@@ -10,7 +10,13 @@ namespace EliotsPieShop
         public App()
         {
             InitializeComponent();
-            MainPage = new PieDetailView();
+
+            var alreadyRegistered = false;
+          
+            if (alreadyRegistered)
+                MainPage = new MainView();
+            else
+                MainPage = new NavigationPage(new LoginView());
         }
 
         protected override void OnStart()

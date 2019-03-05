@@ -5,13 +5,9 @@
              BackgroundImage="patternwide.png">
     <StackLayout>
 
-        <Label Text="Visit our site" 
-               FontSize="Large" 
-               HorizontalTextAlignment="Center" 
-               VerticalTextAlignment="Center"></Label>
+        <Label Text="Visit our site" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
 
-        <WebView Source="https://www.snowball.be" 
-                 HeightRequest="500"
+        <WebView Source="https://www.snowball.be" HeightRequest="500"
                  WidthRequest="500"></WebView>
     </StackLayout>
 </ContentPage>

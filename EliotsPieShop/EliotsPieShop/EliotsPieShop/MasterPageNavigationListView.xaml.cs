@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EliotsPieShop
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HomeView : ContentPage
+	public partial class MasterPageNavigationListView : ContentPage
 	{
-		public HomeView ()
+		public MasterPageNavigationListView ()
 		{
 			InitializeComponent ();
 		}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BethanysPieShopMobile.Model
+namespace EliotsPieShop.Model
 {
     public class Pie
     {

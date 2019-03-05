@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:EliotsPieShop.Model"
+             xmlns:eliotsPieShop="clr-namespace:EliotsPieShop"
+             x:Class="EliotsPieShop.MasterPageNavigationListView"
+             Title="Navigation">
+    <StackLayout>
+        <ListView x:Name="NavigationListView" x:FieldModifier="public">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type model:MasterNavigationItem}">
+                    <model:MasterNavigationItem Title="Pies" Icon="pie.png" Target="{x:Type eliotsPieShop:PieOverview}" />
+                    <model:MasterNavigationItem Title="Settings" Icon="settings.png" Target="{x:Type eliotsPieShop:SettingsView}" />
+                    <!--<model:MasterNavigationItem Title="Settings" Icon="settings.png" Target="{x:Type bethanysPieShopMobile:SettingsTableView}" />-->
+                    <model:MasterNavigationItem Title="Contact" Icon="contact.png" Target="{x:Type eliotsPieShop:ContactView}" />
+                    <model:MasterNavigationItem Title="Our site" Icon="web.png" Target="{x:Type eliotsPieShop:WebPageView}" />
+                    <model:MasterNavigationItem Title="Settings" Icon="settings.png" Target="{x:Type eliotsPieShop:SettingsTableView}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Icon}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

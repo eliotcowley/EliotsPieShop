@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EliotsPieShop
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class VisitUsView : ContentPage
+	public partial class SettingsTableView : ContentPage
 	{
-		public VisitUsView ()
+		public SettingsTableView ()
 		{
 			InitializeComponent ();
 		}

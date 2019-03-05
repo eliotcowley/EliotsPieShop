@@ -2,14 +2,15 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:EliotsPieShop"
-             x:Class="EliotsPieShop.MainView">
+             x:Class="EliotsPieShop.MainView"
+             Title="Eliot's Pie Shop">
     <MasterDetailPage.Master>
-       
+        <local:MasterPageNavigationListView x:Name="MasterView"></local:MasterPageNavigationListView>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <local:HomeView></local:HomeView>
+                <local:PieOverview></local:PieOverview>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>
